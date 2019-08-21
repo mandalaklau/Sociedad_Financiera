@@ -15,36 +15,78 @@ body {
 .jumbotronVal{
     padding: 2rem 1rem;
     margin-bottom: 1rem;
-    background: url("../img/uniespecializada.png")no-repeat 0px 0px/cover #e9ecef;
-    /*height: 410px;*/
+    background: url("../img/uniespecializada.png")no-repeat 0px -100px/cover #e9ecef;
+    height: 340px;
     color: #FFFFFF;
 }
 .jumbotronUE{
     padding: 2rem 1rem;
     margin-bottom: 1rem;
     background: url("../img/valores_img.png")no-repeat 0px 0px/cover #e9ecef;
-    /*height: 410px;*/
+    height: 340px;
     color: #FFFFFF;
 }
 .jumbotroninfo{
     padding: 2rem 1rem;
     margin-bottom: 1rem;
-    background: url("../img/infofinanciera.png")no-repeat 0px 0px/cover #e9ecef;
-    /*height: 410px;*/
+    background: url("../img/infofinanciera.png")no-repeat 0px -50px/cover #e9ecef;
+    height: 340px;
     color: #FFFFFF;
 }
 .jumbotronRED{
     padding: 2rem 1rem;
     margin-bottom: 1rem;
-    background: url("../img/red01.png")no-repeat 0px 0px/cover #e9ecef;
-    /*height: 410px;*/
+    background: url("../img/RedG.png")no-repeat 0px 0px/cover #e9ecef;
+    height: 340px;
+    color: #FFFFFF;
+}
+.jumbotronAhorro{
+    padding: 2rem 1rem;
+    margin-bottom: 1rem;
+    background: url("../img/ahorro.png")no-repeat 0px 0px/cover, linear-gradient(-45deg, rgba(8,115,186,.5) 0%, rgba(5,193,171,.5) 100%);
+    height: 340px;
+    color: #FFFFFF;
+}
+.jumbotronInversion{
+    padding: 2rem 1rem;
+    margin-bottom: 1rem;
+    background: url("../img/inversion.png")no-repeat 0px 0px/cover, linear-gradient(-45deg, rgba(8,115,186,.5) 0%, rgba(5,193,171,.5) 100%);
+    height: 340px;
+    color: #FFFFFF;
+}
+.jumbotronCpersonal{
+    padding: 2rem 1rem;
+    margin-bottom: 1rem;
+    background: url(../img/Cpersonal.png)no-repeat 0px -150px/100%, linear-gradient(-45deg, rgba(8,115,186,.5) 0%, rgba(5,193,171,.5) 100%);
+    height: 340px;
+    color: #FFFFFF;
+}
+.jumbotronCinver{
+    padding: 2rem 1rem;
+    margin-bottom: 1rem;
+    background: url(../img/C_Inversion.png)no-repeat 0px -150px/100%, linear-gradient(-45deg, rgba(8,115,186,.5) 0%, rgba(5,193,171,.5) 100%);
+    height: 340px;
+    color: #FFFFFF;
+}
+.jumbotronCtrabajo{
+    padding: 2rem 1rem;
+    margin-bottom: 1rem;
+    background: url(../img/C_Trabajo.png)no-repeat 0px -150px/100%, linear-gradient(-45deg, rgba(8,115,186,.5) 0%, rgba(5,193,171,.5) 100%);
+    height: 340px;
     color: #FFFFFF;
 }
 .jumbotronRED2{
     padding: 2rem 1rem;
+    /*margin-bottom: 1rem;*/
+    background: url("../img/red02.png")no-repeat 0px 0px/cover #e9ecef;
+    height: auto;
+    color: #FFFFFF;
+}
+.jumbotronContacto{
+    padding: 2rem 1rem;
     margin-bottom: 1rem;
-    background: url("../img/red2.png")no-repeat 0px 0px/cover #e9ecef;
-    /*height: 410px;*/
+    background: url("../img/contacto.png")no-repeat 0px 0px/cover, linear-gradient(-45deg, rgba(8,115,186,.5) 0%, rgba(5,193,171,.5) 100%);
+    height: 340px;
     color: #FFFFFF;
 }
 .tituno{ color: #054B92;
@@ -72,8 +114,14 @@ body {
 }
 .iconP{font-weight: 900;
     width: 4rem;
-    text-align: center;}
-
+    text-align: center;
+    color: #007488 !important;
+}
+.iconT{font-weight: 900;
+    width: 4rem;
+    text-align: center;
+    color: #007B3D !important;
+}
 
 .img-absolute {
        position: absolute;
@@ -81,8 +129,14 @@ body {
     bottom: 16px;
     right: 200px;
 }
+
+.imgMision {
+    width: 70%;
+    padding-bottom: 2rem;
+}
+
 .bg-vision{
-	background: url("../img/Grupo 03.png")no-repeat 0px 72%/cover #e9ecef;
+	  background: url("../img/Grupo 03.png")no-repeat 80% 0%/cover #e9ecef;
     height: 382px;
     color: #FFFFFF;
     text-align: center;
@@ -91,15 +145,15 @@ body {
 .jumbotronDos {
     padding: 2rem 1rem;
     margin-bottom: 2rem;
-    background: url("../img/Grupo 224@2x.png")no-repeat 0px 72%/cover #e9ecef;
+    background: url("../img/oportunidades.png")no-repeat 0px 0%/cover #e9ecef;
     height: 350px;
     color: #FFFFFF;
     text-align: right;
 }
 .jumbotronTres {
     padding: 2rem 1rem;
-    background: url("../img/Grupo 207.png")no-repeat 0px 72%/cover #e9ecef;
-    height: 550px;
+    background: url("../img/tiposcambio.png")no-repeat 0px 72%/cover #e9ecef;
+    height: auto;
     color: #FFFFFF;
     text-align: right;
 }
@@ -166,6 +220,11 @@ p{
         color: #6c757d!important;
     font-size: .9em;
     font-weight: lighter;
+}
+.imgfoot {
+    background: url(../img/logoUnagra.svg)no-repeat 0% 0%;
+    width: 5rem;
+    height: 4rem;
 }
 
 /*ESTILOS PAG INVERSIÖN*/
