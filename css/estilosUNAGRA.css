@@ -19,71 +19,71 @@ nav.navbar a {
 .jumbotronUNA {
     padding: 2rem 1rem;
     margin-bottom: 2rem;
-    background: url("../img/Grupo 223.png")no-repeat 0% 90%/cover #e9ecef;
-    height: 600px;
+    background: url("../img/Grupo 223.png")no-repeat 0% 0%/cover #e9ecef;
+    height: 32rem;
 }
 
 .jumbotronVal{
     padding: 2rem 1rem;
     margin-bottom: 1rem;
-    background: url("../img/uniespecializada.png")no-repeat 0px -100px/cover #e9ecef;
-    height: 340px;
+    background: url("../img/uniespecializada.png")no-repeat 0px 0px/cover #e9ecef;
+    height: 32rem;
     color: #FFFFFF;
 }
 .jumbotronUE{
     padding: 2rem 1rem;
     margin-bottom: 1rem;
     background: url("../img/valores_img.png")no-repeat 0px 0px/cover #e9ecef;
-    height: 340px;
+    height: 32rem;
     color: #FFFFFF;
 }
 .jumbotroninfo{
     padding: 2rem 1rem;
     margin-bottom: 1rem;
-    background: url("../img/infofinanciera.png")no-repeat 0px -50px/cover #e9ecef;
-    height: 340px;
+    background: url("../img/infofinanciera.png")no-repeat 0px 0px/cover #e9ecef;
+    height: 32rem;
     color: #FFFFFF;
 }
 .jumbotronRED{
     padding: 2rem 1rem;
     margin-bottom: 1rem;
     background: url("../img/RedG.png")no-repeat 0px 0px/cover #e9ecef;
-    height: 340px;
+    height: 32rem;
     color: #FFFFFF;
 }
 .jumbotronAhorro{
     padding: 2rem 1rem;
     margin-bottom: 1rem;
     background: url("../img/ahorro.png")no-repeat 0px 0px/cover, linear-gradient(-45deg, rgba(8,115,186,.5) 0%, rgba(5,193,171,.5) 100%);
-    height: 340px;
+    height: 32rem;
     color: #FFFFFF;
 }
 .jumbotronInversion{
     padding: 2rem 1rem;
     margin-bottom: 1rem;
     background: url("../img/inversion.png")no-repeat 0px 0px/cover, linear-gradient(-45deg, rgba(8,115,186,.5) 0%, rgba(5,193,171,.5) 100%);
-    height: 340px;
+    height: 32rem;
     color: #FFFFFF;
 }
 .jumbotronCpersonal{
     padding: 2rem 1rem;
     margin-bottom: 1rem;
-    background: url(../img/Cpersonal.png)no-repeat 0px -150px/100%, linear-gradient(-45deg, rgba(8,115,186,.5) 0%, rgba(5,193,171,.5) 100%);
-    height: 340px;
+    background: url(../img/Cpersonal.png)no-repeat 0px 0px/cover, linear-gradient(-45deg, rgba(8,115,186,.5) 0%, rgba(5,193,171,.5) 100%);
+    height: 32rem;
     color: #FFFFFF;
 }
 .jumbotronCinver{
     padding: 2rem 1rem;
     margin-bottom: 1rem;
-    background: url(../img/C_Inversion.png)no-repeat 0px -150px/100%, linear-gradient(-45deg, rgba(8,115,186,.5) 0%, rgba(5,193,171,.5) 100%);
-    height: 340px;
+    background: url(../img/C_Inversion.png)no-repeat 0px 0px/cover, linear-gradient(-45deg, rgba(8,115,186,.5) 0%, rgba(5,193,171,.5) 100%);
+    height: 32rem;
     color: #FFFFFF;
 }
 .jumbotronCtrabajo{
     padding: 2rem 1rem;
     margin-bottom: 1rem;
-    background: url(../img/C_Trabajo.png)no-repeat 0px -150px/100%, linear-gradient(-45deg, rgba(8,115,186,.5) 0%, rgba(5,193,171,.5) 100%);
-    height: 340px;
+    background: url(../img/C_Trabajo.png)no-repeat 0px 0px/cover, linear-gradient(-45deg, rgba(8,115,186,.5) 0%, rgba(5,193,171,.5) 100%);
+    height: 32rem;
     color: #FFFFFF;
 }
 .jumbotronRED2{
@@ -97,7 +97,7 @@ nav.navbar a {
     padding: 2rem 1rem;
     margin-bottom: 1rem;
     background: url("../img/contacto.png")no-repeat 0px 0px/cover, linear-gradient(-45deg, rgba(8,115,186,.5) 0%, rgba(5,193,171,.5) 100%);
-    height: 340px;
+    height: 32rem;
     color: #FFFFFF;
 }
 .tituno{ color: #054B92;
@@ -156,7 +156,7 @@ img.logoH {
 }
 
 .bg-vision{
-	  background: url("../img/Grupo 03.png")no-repeat 80% 0%/cover #e9ecef;
+	background: url("../img/Grupo 03.png")no-repeat 80% 0%/cover #e9ecef;
     height: 382px;
     color: #FFFFFF;
     text-align: center;
