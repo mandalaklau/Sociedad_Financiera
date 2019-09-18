@@ -118,9 +118,6 @@ nav.navbar a {
     margin-left:1rem; 
 } 
 .img-fluid {
-     /*   width: auto;
-    overflow: hidden;
-    height: auto;*/
     margin-bottom:53px;
 }
 .logoU {
@@ -137,12 +134,22 @@ img.logoH {
     text-align: center;
     color: #007488 !important;
 }
+.iconI{font-weight: 900;
+    width: 4rem;
+    text-align: center;
+    color: #054a91 !important;
+}
+.text-I{
+    color:#054A91;
+}
 .iconT{font-weight: 900;
     width: 4rem;
     text-align: center;
     color: #007B3D !important;
 }
-
+.text-T{
+    color:#007B3D;
+}
 .img-absolute {
        position: absolute;
     max-width: 45%;
@@ -256,6 +263,43 @@ ul.list-unstyled.text-small {
     float: right;
 }
 
+
+/*Creditos Personales*/
+
+
+#navcc a {
+    color: #007488;
+}
+#navcc .active{
+    background-color: #007488;
+    color: #ffffff !important;
+}
+
+.text-cp{
+    color: 007488;
+}
+
+/*Creditos Inversión*/
+
+
+#navci a {
+    color: #044A91;
+}
+#navci .active{
+    background-color: #044A91;
+    color: #ffffff !important;
+}
+
+/*Creditos Trabajo*/
+
+
+#navct a {
+    color: #007B3D;
+}
+#navct .active{
+    background-color: #007B3D;
+    color: #ffffff !important;
+}
 /*Estilos para pestañas de créditos */
 
 .tabbable-panel {
